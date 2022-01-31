@@ -132,7 +132,7 @@
 /* The actual popup (appears on top) */
 .popup .popuptext {
   visibility: hidden;
-  width: 160px;
+  width: 180px;
   background-color: #555;
   color: #fff;
   text-align: center;
@@ -432,10 +432,10 @@
     <div class="container">
       <form action="" method="post" id="subForm" class="inp-grp">
         <input type="number" placeholder="Trackin ID" required="">
- <div class="popup btn bg-success" onclick="myFunction()">Track
-  <span class="popuptext" id="myPopup">Provide The Right Tracking ID Or Contact Logistic Co. </span>
+ <div class="popup btn bg-success container" onclick="myFunction()">Track
+  <span class="popuptext text-center" id="myPopup">Provide The Right Tracking ID Or Contact Logistic Co. </span>
 </div>
-
+</form>
 <script>
 // When the user clicks on div, open the popup
 function myFunction() {
@@ -443,7 +443,7 @@ function myFunction() {
   popup.classList.toggle("show");
 }
 </script>
-      </form>
+      
     </div>
   </div>
 </div>
